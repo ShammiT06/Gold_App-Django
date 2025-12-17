@@ -14,7 +14,7 @@ import axios from "axios";
 import { router } from "expo-router";
 
 // ⭐ Base URL (change only here)
-const BASE_URL = "http://192.168.0.8:8081";
+const BASE_URL = "http://192.168.1.11:8081";
 
 // ⭐ Helper to fix image URL
 const getImageUrl = (path) => {

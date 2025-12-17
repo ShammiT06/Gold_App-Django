@@ -58,7 +58,7 @@ export default function Profile() {
   // LOAD EXISTING KYC
   const fetchKyc = async (uid) => {
     try {
-      const res = await axios.get(`http://192.168.0.8:8081/api/getkyc/${uid}/`);
+      const res = await axios.get(`http://192.168.1.11:8081/api/getkyc/${uid}/`);
       setKycDetails(res.data);
     } catch (err) {
       console.log("No KYC found.");

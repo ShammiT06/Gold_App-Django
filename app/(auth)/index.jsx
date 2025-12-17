@@ -31,7 +31,7 @@ export default function LoginScreen() {
 
     try {
       // Call Django API
-      const res = await axios.post("http://192.168.0.8:8081/api/user/", {
+      const res = await axios.post("http://192.168.1.11:8081/api/user/", {
         name: email,        // your backend expects this
         password: password,
       });

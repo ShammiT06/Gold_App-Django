@@ -18,7 +18,7 @@ import axios from "axios";
 
 const { width } = Dimensions.get("window");
 
-const BASE_URL = "http://192.168.0.8:8081";
+const BASE_URL = "http://192.168.1.11:8081";
 
 const getImageUrl = (path) => {
     if (!path) return null;
